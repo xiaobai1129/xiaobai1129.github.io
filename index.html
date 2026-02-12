@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>黄志宏 | 个人主页</title>
+  <meta name="description" content="黄志宏的个人主页 — 中国传媒大学硕士研究生，专注深度学习与计算机视觉。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">ZH<span class="accent-dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#education">教育经历</a></li>
+        <li><a href="#skills">技术栈</a></li>
+        <li><a href="#projects">项目经历</a></li>
+        <li><a href="#experience">实习经历</a></li>
+        <li><a href="#story">我的故事</a></li>
+        <li><a href="#contact">联系我</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-greeting animate-in">你好，我是</p>
+      <h1 class="hero-name animate-in delay-1">黄志宏</h1>
+      <p class="hero-tagline animate-in delay-2">
+        <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc animate-in delay-3">中国传媒大学 · 信息与通信工程 · 硕士在读</p>
+      <div class="hero-cta animate-in delay-4">
+        <a href="#about" class="btn btn-primary">了解更多</a>
+        <a href="#contact" class="btn btn-outline">联系我</a>
+      </div>
+      <div class="hero-scroll animate-in delay-5">
+        <div class="scroll-indicator">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">01.</span> 关于我
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            我叫黄志宏，来自<strong>山东省菏泽市巨野县</strong>的一个小村庄——西黄堂村。从华北平原的田野到北部湾的海岸线，再到北京的东五环，一路走来，我始终相信：<em>已有的事，后必再有；已行的事，后必再行。</em>
+          </p>
+          <p>
+            目前在中国传媒大学攻读<strong>信息与通信工程</strong>硕士学位，研究方向为<strong>深度学习与计算机视觉</strong>。本科毕业于北部湾大学电子信息工程专业，期间担任四年班长，曾被老师评价为："善于团结同学，集中力量办大事。"
+          </p>
+          <p>我热爱探索，喜欢折腾各种技术工具。工作之余，我也热爱历史、文学、地理和轨道交通。我曾用近四万字写下自己的前半生——一个山东农村孩子走向学术之路的真实故事。</p>
+        </div>
+        <div class="about-info reveal">
+          <div class="info-card">
+            <div class="info-item"><span class="info-label">姓名</span><span class="info-value">黄志宏</span></div>
+            <div class="info-item"><span class="info-label">出生年月</span><span class="info-value">2002.11</span></div>
+            <div class="info-item"><span class="info-label">籍贯</span><span class="info-value">山东省菏泽市</span></div>
+            <div class="info-item"><span class="info-label">学历</span><span class="info-value">硕士在读</span></div>
+            <div class="info-item"><span class="info-label">学校</span><span class="info-value">中国传媒大学</span></div>
+            <div class="info-item"><span class="info-label">MBTI</span><span class="info-value">ISTJ / ISTP</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education Section ===== -->
+  <section class="section education" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">02.</span> 教育经历
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">硕士</div>
+            <h3>中国传媒大学</h3>
+            <p class="timeline-date">2024.09 — 2027.06</p>
+            <p class="timeline-major">信息与通信工程</p>
+            <p class="timeline-desc">
+              研究方向：深度学习、计算机视觉、自监督学习。在媒体融合与传播国家重点实验室和广播电视数字化教育部工程研究中心从事科研工作。刻苦钻研前沿论文，积极探索自监督学习、PEFT、LoRA
+              等新技术在多标签分类与视频修复中的应用，独立完成多个从立项到部署的全流程项目。</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-badge">本科</div>
+            <h3>北部湾大学</h3>
+            <p class="timeline-date">2020.09 — 2024.06</p>
+            <p class="timeline-major">电子信息工程（嵌入式方向）</p>
+            <p class="timeline-desc">
+              四年班长，善于团结同学，集中力量办大事。本科专注嵌入式系统开发，系统学习单片机编程、电路设计、信号处理等硬件核心课程，培养了从底层硬件到上层软件的全栈思维。软硬件结合的训练赋予了复合型视野，为研究生阶段转向深度学习与计算机视觉提供了独特的工程视角与扎实的技术底座。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">03.</span> 技术栈
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+            编程语言
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">MATLAB</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+            AI / 深度学习
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">深度学习</span>
+            <span class="skill-tag">计算机视觉</span>
+            <span class="skill-tag">自监督学习</span>
+            <span class="skill-tag">PEFT / LoRA</span>
+            <span class="skill-tag">CLIP</span>
+            <span class="skill-tag">机器学习</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8" />
+              <path d="M12 17v4" />
+            </svg>
+            数理基础
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">高等数学</span>
+            <span class="skill-tag">线性代数</span>
+            <span class="skill-tag">概率论</span>
+            <span class="skill-tag">矩阵论</span>
+            <span class="skill-tag">随机过程</span>
+            <span class="skill-tag">最优化方法</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </svg>
+            工具 & 框架
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Vue.js</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">Office</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+            </svg>
+            专业课程
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">信号处理</span>
+            <span class="skill-tag">Python与人工智能</span>
+            <span class="skill-tag">计算机视觉</span>
+            <span class="skill-tag">机器学习</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+            软技能
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">英语听说读写</span>
+            <span class="skill-tag">团队协作</span>
+            <span class="skill-tag">快速学习</span>
+            <span class="skill-tag">独立开发</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">04.</span> 项目经历
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-top">
+            <svg class="project-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+            </svg>
+            <div class="project-links">
+              <a href="https://github.com/xiaobaihuaji/vue01.git" target="_blank" title="GitHub"
+                class="project-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">基于 Vue.js 的 Web 应用</h3>
+          <p class="project-org">媒体融合与传播国家重点实验室</p>
+          <p class="project-date">2024.11 — 2025.03</p>
+          <p class="project-desc">独立完成基于 Vue.js 框架的 Web 应用程序，实现与后端服务器的数据交互和通信功能。两月自学 Vue 并上线项目。</p>
+          <div class="project-tech">
+            <span>Vue.js</span><span>JavaScript</span><span>API</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-top">
+            <svg class="project-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+            </svg>
+          </div>
+          <h3 class="project-title">基于深度学习的视频修复</h3>
+          <p class="project-org">广播电视数字化教育部工程研究中心</p>
+          <p class="project-date">2025.04 — 至今</p>
+          <p class="project-desc">利用深度学习技术，在解码端利用码流信息进行视频修复，修复效果显著。</p>
+          <div class="project-tech">
+            <span>Deep Learning</span><span>Python</span><span>Video Processing</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-top">
+            <svg class="project-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+              <line x1="9" y1="9" x2="9.01" y2="9" />
+              <line x1="15" y1="9" x2="15.01" y2="9" />
+            </svg>
+          </div>
+          <h3 class="project-title">自监督学习 + LP-FT 多标签分类</h3>
+          <p class="project-org">北京汐基智能科技有限责任公司</p>
+          <p class="project-date">2025.08 — 2026.03</p>
+          <p class="project-desc">独立完成从立项、研发到部署上线全流程。搭建训练框架，优化多标签分类算法，目标测试集样本级准确率达 90%。</p>
+          <div class="project-tech">
+            <span>Self-supervised</span><span>LP-FT</span><span>Multi-label</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-top">
+            <svg class="project-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <polyline points="21 15 16 10 5 21" />
+            </svg>
+          </div>
+          <h3 class="project-title">自监督学习 + LoRA 舌色苔色分类</h3>
+          <p class="project-org">北京汐基智能科技有限责任公司</p>
+          <p class="project-date">2025.11 — 2025.12</p>
+          <p class="project-desc">独立完成立项到部署结项，针对数据集不足采用增广策略，样本级准确率达 85%。</p>
+          <div class="project-tech">
+            <span>Self-supervised</span><span>LoRA</span><span>Data Augmentation</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-top">
+            <svg class="project-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <polyline points="21 15 16 10 5 21" />
+            </svg>
+            <div class="project-links">
+              <a href="https://github.com/xiaobai1129/picture-merge.git" target="_blank" title="GitHub"
+                class="project-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">OpenCV 图像拼接系统</h3>
+          <p class="project-org">个人项目</p>
+          <p class="project-date">2024.12 — 2025.01</p>
+          <p class="project-desc">基于 Python/OpenCV 的图像拼接系统，SIFT 特征匹配 + RANSAC + SVD 单应矩阵估计，拉普拉斯金字塔多频融合。</p>
+          <div class="project-tech">
+            <span>OpenCV</span><span>SIFT</span><span>Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience Section ===== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">05.</span> 实习经历
+      </h2>
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-company">汐基智能</h3>
+            <p class="exp-role">自监督学习图像算法实习生</p>
+          </div>
+          <span class="exp-date">2025.09 — 2026.05</span>
+        </div>
+        <ul class="exp-details">
+          <li>参与基于自监督学习的鲁棒微调，PEFT 以及 LoRA 等算法研发</li>
+          <li>探索结合 CLIP / Vision-Language Models 的跨模态疾病类型识别</li>
+          <li>在带教领导下各种算法项目从立项到部署全流程主导实现</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Story Section ===== -->
+  <section class="section story" id="story">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">06.</span> 我的故事
+      </h2>
+      <div class="story-intro reveal">
+        <blockquote class="story-quote">
+          "已有的事，后必再有。已行的事，后必再行。"
+          <footer>—— 《我的前半生》卷首语</footer>
+        </blockquote>
+        <p>我用近四万字写下了自己的前半生——一个从山东农村走向北京学术殿堂的真实故事。以下是一些片段：</p>
+      </div>
+
+      <div class="story-timeline">
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">🏡</div>
+          <h3>家庭 · 西黄堂村</h3>
+          <p>
+            我出生于山东省菏泽市巨野县万丰镇西黄堂村。三个黄堂村，自西向东排列，居民主要姓黄。据村口石碑记载，最早可追溯至明洪武年间。爷爷是村小学的教师，他和奶奶带大了我和三位堂哥。用信号处理的概念来说——家庭是我的"初始状态"，个人奋斗是持续输入，二者共同决定了每个阶段的人生输出。
+          </p>
+        </div>
+
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">📚</div>
+          <h3>小学 · 黄堂小学</h3>
+          <p>由于爷爷尚未完全退休，我08年就提前上了小学。给小学时期的自己打标签：「学习好 +
+            软弱」。小学班上三十多个同学，近一半初中没读完就辍学了，读研的可能就只有我一个。但那些在乡间小路上讨论"世界末日"和《洛克王国》的午后，至今令人神往。</p>
+        </div>
+
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">🎯</div>
+          <h3>初中 · 万丰镇第一中学</h3>
+          <p>名副其实的"小镇做题家"。从村庄走到镇上，教育经历完美映射出地域轨迹：黄堂村 → 万丰镇 → 巨野县。每一步都是一个台阶。</p>
+        </div>
+
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">⚡</div>
+          <h3>高中 · 巨野县第一中学</h3>
+          <p>
+            高中是最灰暗但也最锻炼意志力的阶段。我不适合被管得太严，"划定底线给一个目标，然后让我自由发挥"才是最适合我的方式。后来到了管理宽松的班级后，成绩和生活都慢慢好了起来。赶上了2020年新冠疫情，成为新世纪少有的七月高考考生。
+          </p>
+        </div>
+
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">🌊</div>
+          <h3>大学 · 北部湾大学</h3>
+          <p>
+            高考508分，96个志愿中北部湾大学排在第六七十位。来之前不知道钦州这个城市，看中的是"南方沿海"和这个"特别霸气的名字"。事实证明，这是人生最好的决定之一——在这里度过了"最爽的人生阶段"。担任四年班长，带领班级被老师评价为"铁板一块"。毕业时写下情真意切的致谢："我爱你，湾大！我爱你，电信学院！！！"
+          </p>
+        </div>
+
+        <div class="story-chapter reveal">
+          <div class="chapter-icon">🎓</div>
+          <h3>2024 · 得到与失去</h3>
+          <p>
+            2024年是不平凡的一年。经历了爷爷的离世，也经历了考研上岸中国传媒大学。用两个关键词总结：<strong>得到与失去</strong>。考研复试结束后觉得考不上，度日如年的一周后刷出了"拟录取"三个字——在那个七号的中午，室友在打英雄联盟，我在刷研招网，最后一下刷出了改变人生的结果。
+          </p>
+        </div>
+      </div>
+
+      <div class="story-closing reveal">
+        <p class="closing-text">
+          "撕开昨日旧枷锁，今日方知我是我。"<br />
+          <small>—— 写于2025年6月26日，硕士实验室工位上</small>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">07.</span> 联系我
+      </h2>
+      <div class="contact-content reveal">
+        <p class="contact-desc">如果你对我的研究感兴趣，或者想要合作，欢迎通过以下方式联系我。</p>
+        <div class="contact-grid">
+          <a href="mailto:hzhh@mails.cuc.edu.cn" class="contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span class="contact-label">邮箱</span>
+            <span class="contact-value">hzhh@mails.cuc.edu.cn</span>
+          </a>
+          <a href="https://github.com/xiaobaihuaji" target="_blank" class="contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">xiaobaihuaji</span>
+          </a>
+          <div class="contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+            <span class="contact-label">微信</span>
+            <span class="contact-value">hzh_3633</span>
+          </div>
+          <div class="contact-card">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span class="contact-label">地址</span>
+            <span class="contact-value">中国传媒大学（东五环）</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-motto">立德、敬业、博学、竞先</p>
+      <p class="footer-copy">&copy; 2026 黄志宏 · Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
