@@ -434,6 +434,18 @@ img {
   font-family: var(--font-serif);
 }
 
+.about-text a {
+  color: var(--accent-light);
+  font-weight: 500;
+  border-bottom: 1px dashed rgba(139, 131, 255, 0.5);
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.about-text a:hover {
+  color: var(--accent-secondary);
+  border-bottom-color: var(--accent-secondary);
+}
+
 .info-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
