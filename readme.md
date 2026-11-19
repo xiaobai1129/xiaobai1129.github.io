@@ -74,7 +74,7 @@ open http://localhost:8080
 
 - 🔬 研究方向：深度学习、计算机视觉、自监督学习
 - 🎓 本科：北部湾大学电子信息工程（嵌入式方向）
-- 📧 邮箱：hzhh@mails.cuc.edu.cn
+- 📧 邮箱：huangzhihong_work@163.com
 - 🐙 GitHub：[@xiaobai1129](https://github.com/xiaobai1129)
 - 💬 微信：hzh_3633
 
