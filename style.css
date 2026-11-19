@@ -742,6 +742,12 @@ img {
 }
 
 /* ===== Experience Section ===== */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .exp-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
